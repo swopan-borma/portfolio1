@@ -1,0 +1,437 @@
+/* 
+============================================================
+CSS Index
+============================================================
+1. Theme default css
+2. Top Nav bar
+3. Header Nav bar
+4. Services
+5. About
+6. Portfolio
+7. Counter
+8. Team
+9. Pricing
+10. Testimonail
+11. Blog
+12. Contact
+13. Footer
+14. ScrollUp 
+15. Inner page bannar 
+16. Index02 hero 
+17. Index04 hero particles 
+18. Index05 hero left-text
+19. Index05 hero left-text 
+20. keyframes
+*/
+
+
+
+/* ==============================================================
+                    1.Theme default css 
+=================================================================*/
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: rgb(33, 33, 90);
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #317ff2;
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212058;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+p {
+
+	font-size: 18px;
+	color: #000;
+	line-height: 35px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 1;
+}
+
+*::placeholder {
+    color: #333;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.theme-overlay {
+    position: relative
+}
+
+.theme-overlay::before {
+    background-color: rgb(115, 108, 236);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+
+/* button style */
+.btn {
+    -moz-user-select: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 15px 30px;
+    z-index: 244;
+    border-radius: 50px;
+    background-color: rgb(238, 64, 54);
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* scrollUp */
+#scrollUp {
+    background: #0c7ac6;
+    height: 35px;
+    width: 35px;
+    right: 50px;
+    bottom: 77px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#scrollUp:hover {
+    background: #fff;
+    color: #0c7ac6;
+}
+
+/*====================================================
+                Header Nav bar
+======================================================*/
+.menu-area.f-right nav ul li {
+	display: inline-block;
+	margin: 0px 30px 0px 0px;
+}
+.menu-area.f-right nav ul li a {
+	font-size: 14px;
+	text-decoration: none;
+    color:#000000;
+    font-family: medium;
+}
+.btn-area.f-right {
+	margin: 0px 0px 0px 13px;
+}
+.menu-area.f-right {
+	margin: 15px 0px 0px 0px;
+}
+.menu-area.f-right nav ul li a:hover {
+	color: #FF2914;
+}
+
+/*====================================================
+                Hero Area
+======================================================*/
+.hero-area {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+.single-slider-hero h3, .single-slider-hero h1, .single-slider-hero p {
+	color: white;
+}
+
+.single-slider-hero {
+	padding-top: 235px;
+}
+.owl-prev i {
+	color: #fff;
+	font-size: 40px;
+}
+.owl-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+
+.owl-next i {
+	color: #fff;
+	font-size: 40px;
+}
+.owl-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+/*====================================================
+                About Us Area
+======================================================*/
+.about-text-area h3 {
+	color: #ee4036;
+	font-weight: bold;
+	margin: 0px 0px 38px 0px;
+}
+.about-text-area h2 {
+	line-height: 50px;
+	margin: 0px 0px 40px 0px;  
+}
+.about-text-area p {
+	margin: 0px 0px 45px 0px;
+}
+
+.about-img-area img {
+	float: right;
+	margin: 0px 48px 0px 0px;
+}
+/*====================================================
+                Service Area
+======================================================*/
+.single-service-item img {
+	height: 80px;
+    margin: 0px 0px 30px 0px;
+}
+.single-service-item h4 {
+	text-transform: uppercase;
+	margin: 0px 0px 25px 0px;
+}  
+
+.single-service-item {
+	background-color: rgb(255, 255, 255);
+	box-shadow: -8px 9px 25.93px 0.07px rgba(0, 0, 0, 0.39);
+	padding: 40px 50px;
+	border-radius: 50px 0px 40px;
+	padding: ;
+}
+/*====================================================
+                Offer Area
+======================================================*/
+.offer-img-area {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+
+.icon-area {
+	margin: 0 auto;
+	font-size: 30px;
+    color: white;
+}
+/*====================================================
+                work Area
+======================================================*/
+.portfolio-filter ul li {
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px 15px 15px 15px;
+	cursor: pointer;
+}
+
+.portfolio-filter ul li.active {
+	color: #ee4036;
+}
+.element-item {
+	float: left;
+	width: 33%;
+	height: auto;
+	border: 15px solid #fff;
+}
+
+.element-item a::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #00000026;
+	position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    transform: scaleX(0);
+}
+
+.element-item:hover a::before {
+	
+	background-color: #00000026;
+    opacity: 1;
+    visibility: visible;
+    transform: scaleX(1);
+}
